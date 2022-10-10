@@ -4,6 +4,12 @@
     border: 1px solid white;
 }
 
+[class*=colbig] {
+    background-color: #006cfa;
+    height: 100%;
+    border: 1px solid white;
+}
+
 
 
 .row {
