@@ -20,6 +20,14 @@
     display: flex;
 }
 
+.space-around {
+    justify-content: space-around;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
 
 /* Row */
 
