@@ -1,0 +1,11 @@
+[class*=col] {
+    background-color: #006cfa;
+    height: 100%;
+    border: 1px solid white;
+}
+
+
+
+.row {
+    height: 2.5rem;
+}
