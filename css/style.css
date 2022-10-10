@@ -1,6 +1,6 @@
 [class*=col] {
     background-color: #006cfa;
-    min-height: 1rem;
+    min-height: 2rem;
     border: 1px solid white;
 }
 
@@ -9,14 +9,23 @@
     border-color: #006cfa;
 }
 
-/* [class*=colbig] {
-    background-color: #006cfa;
-    height: 100%;
-    border: 1px solid white;
-} */
+[class*=section] {
+    margin-bottom: 1rem;
 
-
+}
 
 .row {
-    min-height: 1rem;
+    min-height: 2rem;
+}
+
+.big {
+    padding: 2rem;
+}
+
+.text {
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

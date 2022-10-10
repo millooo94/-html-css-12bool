@@ -50,49 +50,45 @@
         <div class="col-1"><span class="text">1 col</span></div>
     </div>
     <div class="row">
-        <div class="col-6">
-        </div>
-        <div class="col-6">
-
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12"></div>
-    </div>
-    <div class="row">
-        <div class="col-1"></div>
-        <div class="col-11"></div>
-    </div>
-    <div class="row">
-        <div class="col-2"></div>
-        <div class="col-10"></div>
-    </div>
-    <div class="row">
-        <div class="col-3"></div>
-        <div class="col-9"></div>
-    </div>
-    <div class="row">
-        <div class="col-4"></div>
-        <div class="col-8"></div>
-    </div>
-    <div class="row">
-        <div class="col-5"></div>
-        <div class="col-7"></div>
-    </div>
-    <div class="row">
-        <div class="pad nest col-6">
+        <div class="gt flex col-6">
             <div class="col-2"><span class="text">Nested 2 col</span></div>
             <div class="col-2"><span class="text">Nested 2 col</span></div>
             <div class="col-8"><span class="text">Nested 8 col</span></div>
         </div>
-        <div class="pad nest col-6">
+        <div class="gt flex col-6">
             <div class="col-6"><span class="text">Nested 6 col</span></div>
             <div class="col-6"><span class="text">Nested 6 col</span></div>
         </div>
     </div>
+</section>
+
+<section class="section-2 container">
+        <div class="row">
+            <div class="col-12"></div>
+        </div>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-11"></div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-10"></div>
+        </div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-9"></div>
+        </div>
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-8"></div>
+        </div>
+        <div class="row">
+            <div class="col-5"></div>
+            <div class="col-7"></div>
+        </div>
     </section>
 
-    <section class="section-2">
+    <section class="section-3 container">
         <h2>Offset</h2>
         <div class="row">
             <div class="col-1 col-offset-11"></div>
@@ -128,45 +124,49 @@
             <div class="col-11 col-offset-1"></div>
         </div>
     </section>
-
-    <section class="section-3">
+    <section class="section-4 container">
         <h2>Nested</h2>
         <div class="row">
-            <div class="pad nest col-7">
+            <div class="gt flex col-7">
                 <div class="col-3"></div>
                 <div class="col-6"></div>
                 <div class="col-3"></div>
             </div>
-            <div class="pad nest col-5">
+            <div class="gt flex col-5">
                 <div class="col-6"></div>
                 <div class="col-6"></div>
             </div>
         </div>
     </section>
-    
-
-
-
-    <h2>Alignment</h2>
-    <div class="row">
-        <div class="col-6"><span class="text">start</span></div>
-    </div>
-    <div class="row">
-        <div class="col-6 col-offset-3"><span class="text">center</span></div>
-    </div>
-    <div class="row">
-        <div class="col-6 col-offset-6"><span class="text">end</span></div>
-    </div>
-    <div class="row">
-        <div class="col-6"></div>
-        <div class="col-6"><span class="text">top</span></div>
-    </div>
-
-    <section>
+    <section class="section-5 container">
+        <h2>Alignment</h2>
+        <div class="row flex start">
+            <div class="col-6"><span class="text">start</span></div>
+        </div>
+        <div class="row flex center">
+            <div class="col-6"><span class="text">center</span></div>
+        </div>
+        <div class="row flex end">
+            <div class="col-6"><span class="text">end</span></div>
+        </div>
+        <div class="row flex top">
+            <div class="big col-6"></div>
+            <div class="col-6"><span class="text">top</span></div>
+        </div>
+        <div class="row flex middle">
+            <div class="big col-6"></div>
+            <div class="col-6"><span class="text">middle</span></div>
+        </div>
+        <div class="row flex bottom">
+            <div class="big col-6"></div>
+            <div class="col-6"><span class="text">bottom</span></div>
+        </div>
+    </section>
+    <section class="section-6 container">
         <h2>Justify Content</h2>
         <h3>Space Around</h3>
         <div class="row">
-            <div class="pad nest space-around col-12">
+            <div class="gt flex around col-12">
                 <div class="col-2"></div>
                 <div class="col-2"></div>
                 <div class="col-2"></div>
@@ -174,13 +174,12 @@
         </div>
         <h3>Space Beetween</h3>
         <div class="row">
-            <div class="pad nest space-between col-12">
+            <div class="gt flex between col-12">
                 <div class="col-2"></div>
                 <div class="col-2"></div>
                 <div class="col-2"></div>
             </div>
         </div>
     </section>
-
 </body>
 </html>

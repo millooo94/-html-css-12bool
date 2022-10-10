@@ -4,28 +4,55 @@
     box-sizing: border-box;
 }
 
-.text {
-    color: white;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
 }
 
-.pad {
+.gt {
     padding: .5rem;
 }
 
-.nest {
+.flex {
     display: flex;
 }
 
-.space-around {
+.ok {
+    padding: 0;
+}
+
+.around {
     justify-content: space-around;
 }
 
-.space-between {
+.between {
     justify-content: space-between;
+}
+
+.start {
+    justify-content: flex-start;
+}
+
+.end {
+    justify-content: flex-end;
+}
+
+.center {
+    justify-content: center;
+}
+
+.top {
+    align-items: flex-start;
+}
+
+.middle {
+    align-items: center;
+}
+
+.bottom {
+    align-items: flex-end;
 }
 
 
